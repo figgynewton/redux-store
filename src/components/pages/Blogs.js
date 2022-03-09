@@ -4,8 +4,8 @@ function Blogs(){
     const list = useSelector(state => state.list);
     const items = list.map((obj, index) =>
         <div key={index}>
-            <h2>{obj.nm}</h2>
-            <h2>{obj.sh}</h2>
+            <h1>{obj.nm}</h1>
+            <h3>{obj.sh}</h3>
             <p>{obj.txt}</p>
         </div>
     )
