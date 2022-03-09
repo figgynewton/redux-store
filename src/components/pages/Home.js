@@ -31,14 +31,6 @@ function Home() {
         } else {
             setMess("error in submission");
         }
-
-        dispatch(add_item(form));
-        setForm({
-            nm: "",
-            sh: "",
-            txt: "",
-        })
-        setMess("submitted");
     }
 
         return (
