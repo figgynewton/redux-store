@@ -20,7 +20,7 @@ function Home() {
 
     const handleSubmit = () => {
 
-        if (form.sh.length > 1 && form.nm.length > 1 && !isNaN(form.txt.length)) {
+        if (form.sh.length > 0 && form.nm.length > 0 && !isNaN(form.txt.length)) {
             dispatch(add_item(form));
             setForm({
                 nm: "",
