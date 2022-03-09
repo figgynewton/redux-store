@@ -44,7 +44,7 @@ function Home(){
     return(
         <div>
             <input type="text" placeholder={"name"} value={form.nm} onChange={handleChange("nm")}/>
-            <input type="text" placeholder={"sub header"} value={form.mess} onChange={handleChange("mess")}/>
+            <input type="text" placeholder={"sub header"} value={form.mess} onChange={handleChange("sh")}/>
             <input type="text" placeholder={"text"} value={form.txt} onChange={handleChange("txt")}/>
             <button onClick={handleSubmit}>Submit</button>
             <h3>{mess}</h3>
